@@ -1,0 +1,926 @@
+[
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "os.path",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.path",
+        "description": "os.path",
+        "detail": "os.path",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Container",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TextIO",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "cast",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Container",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Iterable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "ArgumentParser",
+        "importPath": "argparse",
+        "description": "argparse",
+        "isExtraImport": true,
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "pdfminer",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pdfminer",
+        "description": "pdfminer",
+        "detail": "pdfminer",
+        "documentation": {}
+    },
+    {
+        "label": "PDFDocument",
+        "importPath": "pdfminer.pdfdocument",
+        "description": "pdfminer.pdfdocument",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfdocument",
+        "documentation": {}
+    },
+    {
+        "label": "PDFNoOutlines",
+        "importPath": "pdfminer.pdfdocument",
+        "description": "pdfminer.pdfdocument",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfdocument",
+        "documentation": {}
+    },
+    {
+        "label": "PDFXRefFallback",
+        "importPath": "pdfminer.pdfdocument",
+        "description": "pdfminer.pdfdocument",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfdocument",
+        "documentation": {}
+    },
+    {
+        "label": "PDFPage",
+        "importPath": "pdfminer.pdfpage",
+        "description": "pdfminer.pdfpage",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfpage",
+        "documentation": {}
+    },
+    {
+        "label": "PDFParser",
+        "importPath": "pdfminer.pdfparser",
+        "description": "pdfminer.pdfparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdfparser",
+        "documentation": {}
+    },
+    {
+        "label": "PDFObjectNotFound",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "PDFValueError",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "PDFStream",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "PDFObjRef",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "resolve1",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "stream_value",
+        "importPath": "pdfminer.pdftypes",
+        "description": "pdfminer.pdftypes",
+        "isExtraImport": true,
+        "detail": "pdfminer.pdftypes",
+        "documentation": {}
+    },
+    {
+        "label": "PSKeyword",
+        "importPath": "pdfminer.psparser",
+        "description": "pdfminer.psparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.psparser",
+        "documentation": {}
+    },
+    {
+        "label": "PSLiteral",
+        "importPath": "pdfminer.psparser",
+        "description": "pdfminer.psparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.psparser",
+        "documentation": {}
+    },
+    {
+        "label": "LIT",
+        "importPath": "pdfminer.psparser",
+        "description": "pdfminer.psparser",
+        "isExtraImport": true,
+        "detail": "pdfminer.psparser",
+        "documentation": {}
+    },
+    {
+        "label": "isnumber",
+        "importPath": "pdfminer.utils",
+        "description": "pdfminer.utils",
+        "isExtraImport": true,
+        "detail": "pdfminer.utils",
+        "documentation": {}
+    },
+    {
+        "label": "AnyIO",
+        "importPath": "pdfminer.utils",
+        "description": "pdfminer.utils",
+        "isExtraImport": true,
+        "detail": "pdfminer.utils",
+        "documentation": {}
+    },
+    {
+        "label": "pdfminer.high_level",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pdfminer.high_level",
+        "description": "pdfminer.high_level",
+        "detail": "pdfminer.high_level",
+        "documentation": {}
+    },
+    {
+        "label": "LAParams",
+        "importPath": "pdfminer.layout",
+        "description": "pdfminer.layout",
+        "isExtraImport": true,
+        "detail": "pdfminer.layout",
+        "documentation": {}
+    },
+    {
+        "label": "nltk",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "nltk",
+        "description": "nltk",
+        "detail": "nltk",
+        "documentation": {}
+    },
+    {
+        "label": "RecursiveCharacterTextSplitter",
+        "importPath": "langchain.text_splitter",
+        "description": "langchain.text_splitter",
+        "isExtraImport": true,
+        "detail": "langchain.text_splitter",
+        "documentation": {}
+    },
+    {
+        "label": "sent_tokenize",
+        "importPath": "nltk.tokenize",
+        "description": "nltk.tokenize",
+        "isExtraImport": true,
+        "detail": "nltk.tokenize",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "openai",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "openai",
+        "description": "openai",
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "openai",
+        "description": "openai",
+        "isExtraImport": true,
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "crawler",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "crawler",
+        "description": "crawler",
+        "detail": "crawler",
+        "documentation": {}
+    },
+    {
+        "label": "parse_document",
+        "importPath": "parser",
+        "description": "parser",
+        "isExtraImport": true,
+        "detail": "parser",
+        "documentation": {}
+    },
+    {
+        "label": "TextEmbedder",
+        "importPath": "embedder",
+        "description": "embedder",
+        "isExtraImport": true,
+        "detail": "embedder",
+        "documentation": {}
+    },
+    {
+        "label": "ChromaVectorStore",
+        "importPath": "store",
+        "description": "store",
+        "isExtraImport": true,
+        "detail": "store",
+        "documentation": {}
+    },
+    {
+        "label": "TextChunker",
+        "importPath": "chunker",
+        "description": "chunker",
+        "isExtraImport": true,
+        "detail": "chunker",
+        "documentation": {}
+    },
+    {
+        "label": "pdfplumber",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pdfplumber",
+        "description": "pdfplumber",
+        "detail": "pdfplumber",
+        "documentation": {}
+    },
+    {
+        "label": "html2text",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "html2text",
+        "description": "html2text",
+        "detail": "html2text",
+        "documentation": {}
+    },
+    {
+        "label": "docx",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "docx",
+        "description": "docx",
+        "detail": "docx",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "chromadb",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "chromadb",
+        "description": "chromadb",
+        "detail": "chromadb",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAIEmbeddings",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAIEmbeddings",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "Chroma",
+        "importPath": "langchain_chroma",
+        "description": "langchain_chroma",
+        "isExtraImport": true,
+        "detail": "langchain_chroma",
+        "documentation": {}
+    },
+    {
+        "label": "Chroma",
+        "importPath": "langchain_chroma",
+        "description": "langchain_chroma",
+        "isExtraImport": true,
+        "detail": "langchain_chroma",
+        "documentation": {}
+    },
+    {
+        "label": "escape",
+        "kind": 2,
+        "importPath": "ai4hpc_venv.bin.dumppdf",
+        "description": "ai4hpc_venv.bin.dumppdf",
+        "peekOfCode": "def escape(s: Union[str, bytes]) -> str:\n    if isinstance(s, bytes):\n        us = str(s, \"latin-1\")\n    else:\n        us = s\n    return ESC_PAT.sub(lambda m: \"&#%d;\" % ord(m.group(0)), us)\ndef dumpxml(out: TextIO, obj: object, codec: Optional[str] = None) -> None:\n    if obj is None:\n        out.write(\"<null />\")\n        return",
+        "detail": "ai4hpc_venv.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumpxml",
+        "kind": 2,
+        "importPath": "ai4hpc_venv.bin.dumppdf",
+        "description": "ai4hpc_venv.bin.dumppdf",
+        "peekOfCode": "def dumpxml(out: TextIO, obj: object, codec: Optional[str] = None) -> None:\n    if obj is None:\n        out.write(\"<null />\")\n        return\n    if isinstance(obj, dict):\n        out.write('<dict size=\"%d\">\\n' % len(obj))\n        for (k, v) in obj.items():\n            out.write(\"<key>%s</key>\\n\" % k)\n            out.write(\"<value>\")\n            dumpxml(out, v)",
+        "detail": "ai4hpc_venv.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumptrailers",
+        "kind": 2,
+        "importPath": "ai4hpc_venv.bin.dumppdf",
+        "description": "ai4hpc_venv.bin.dumppdf",
+        "peekOfCode": "def dumptrailers(\n    out: TextIO, doc: PDFDocument, show_fallback_xref: bool = False\n) -> None:\n    for xref in doc.xrefs:\n        if not isinstance(xref, PDFXRefFallback) or show_fallback_xref:\n            out.write(\"<trailer>\\n\")\n            dumpxml(out, xref.get_trailer())\n            out.write(\"\\n</trailer>\\n\\n\")\n    no_xrefs = all(isinstance(xref, PDFXRefFallback) for xref in doc.xrefs)\n    if no_xrefs and not show_fallback_xref:",
+        "detail": "ai4hpc_venv.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumpallobjs",
+        "kind": 2,
+        "importPath": "ai4hpc_venv.bin.dumppdf",
+        "description": "ai4hpc_venv.bin.dumppdf",
+        "peekOfCode": "def dumpallobjs(\n    out: TextIO,\n    doc: PDFDocument,\n    codec: Optional[str] = None,\n    show_fallback_xref: bool = False,\n) -> None:\n    visited = set()\n    out.write(\"<pdf>\")\n    for xref in doc.xrefs:\n        for objid in xref.get_objids():",
+        "detail": "ai4hpc_venv.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumpoutline",
+        "kind": 2,
+        "importPath": "ai4hpc_venv.bin.dumppdf",
+        "description": "ai4hpc_venv.bin.dumppdf",
+        "peekOfCode": "def dumpoutline(\n    outfp: TextIO,\n    fname: str,\n    objids: Any,\n    pagenos: Container[int],\n    password: str = \"\",\n    dumpall: bool = False,\n    codec: Optional[str] = None,\n    extractdir: Optional[str] = None,\n) -> None:",
+        "detail": "ai4hpc_venv.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "extractembedded",
+        "kind": 2,
+        "importPath": "ai4hpc_venv.bin.dumppdf",
+        "description": "ai4hpc_venv.bin.dumppdf",
+        "peekOfCode": "def extractembedded(fname: str, password: str, extractdir: str) -> None:\n    def extract1(objid: int, obj: Dict[str, Any]) -> None:\n        filename = os.path.basename(obj.get(\"UF\") or cast(bytes, obj.get(\"F\")).decode())\n        fileref = obj[\"EF\"].get(\"UF\") or obj[\"EF\"].get(\"F\")\n        fileobj = doc.getobj(fileref.objid)\n        if not isinstance(fileobj, PDFStream):\n            error_msg = (\n                \"unable to process PDF: reference for %r is not a \"\n                \"PDFStream\" % filename\n            )",
+        "detail": "ai4hpc_venv.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "dumppdf",
+        "kind": 2,
+        "importPath": "ai4hpc_venv.bin.dumppdf",
+        "description": "ai4hpc_venv.bin.dumppdf",
+        "peekOfCode": "def dumppdf(\n    outfp: TextIO,\n    fname: str,\n    objids: Iterable[int],\n    pagenos: Container[int],\n    password: str = \"\",\n    dumpall: bool = False,\n    codec: Optional[str] = None,\n    extractdir: Optional[str] = None,\n    show_fallback_xref: bool = False,",
+        "detail": "ai4hpc_venv.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "create_parser",
+        "kind": 2,
+        "importPath": "ai4hpc_venv.bin.dumppdf",
+        "description": "ai4hpc_venv.bin.dumppdf",
+        "peekOfCode": "def create_parser() -> ArgumentParser:\n    parser = ArgumentParser(description=__doc__, add_help=True)\n    parser.add_argument(\n        \"files\",\n        type=str,\n        default=None,\n        nargs=\"+\",\n        help=\"One or more paths to PDF files.\",\n    )\n    parser.add_argument(",
+        "detail": "ai4hpc_venv.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ai4hpc_venv.bin.dumppdf",
+        "description": "ai4hpc_venv.bin.dumppdf",
+        "peekOfCode": "def main(argv: Optional[List[str]] = None) -> None:\n    parser = create_parser()\n    args = parser.parse_args(args=argv)\n    if args.debug:\n        logging.getLogger().setLevel(logging.DEBUG)\n    if args.outfile == \"-\":\n        outfp = sys.stdout\n    else:\n        outfp = open(args.outfile, \"w\")\n    if args.objects:",
+        "detail": "ai4hpc_venv.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "ai4hpc_venv.bin.dumppdf",
+        "description": "ai4hpc_venv.bin.dumppdf",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nESC_PAT = re.compile(r'[\\000-\\037&<>()\"\\042\\047\\134\\177-\\377]')\ndef escape(s: Union[str, bytes]) -> str:\n    if isinstance(s, bytes):\n        us = str(s, \"latin-1\")\n    else:\n        us = s\n    return ESC_PAT.sub(lambda m: \"&#%d;\" % ord(m.group(0)), us)\ndef dumpxml(out: TextIO, obj: object, codec: Optional[str] = None) -> None:\n    if obj is None:",
+        "detail": "ai4hpc_venv.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "ESC_PAT",
+        "kind": 5,
+        "importPath": "ai4hpc_venv.bin.dumppdf",
+        "description": "ai4hpc_venv.bin.dumppdf",
+        "peekOfCode": "ESC_PAT = re.compile(r'[\\000-\\037&<>()\"\\042\\047\\134\\177-\\377]')\ndef escape(s: Union[str, bytes]) -> str:\n    if isinstance(s, bytes):\n        us = str(s, \"latin-1\")\n    else:\n        us = s\n    return ESC_PAT.sub(lambda m: \"&#%d;\" % ord(m.group(0)), us)\ndef dumpxml(out: TextIO, obj: object, codec: Optional[str] = None) -> None:\n    if obj is None:\n        out.write(\"<null />\")",
+        "detail": "ai4hpc_venv.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "LITERAL_FILESPEC",
+        "kind": 5,
+        "importPath": "ai4hpc_venv.bin.dumppdf",
+        "description": "ai4hpc_venv.bin.dumppdf",
+        "peekOfCode": "LITERAL_FILESPEC = LIT(\"Filespec\")\nLITERAL_EMBEDDEDFILE = LIT(\"EmbeddedFile\")\ndef extractembedded(fname: str, password: str, extractdir: str) -> None:\n    def extract1(objid: int, obj: Dict[str, Any]) -> None:\n        filename = os.path.basename(obj.get(\"UF\") or cast(bytes, obj.get(\"F\")).decode())\n        fileref = obj[\"EF\"].get(\"UF\") or obj[\"EF\"].get(\"F\")\n        fileobj = doc.getobj(fileref.objid)\n        if not isinstance(fileobj, PDFStream):\n            error_msg = (\n                \"unable to process PDF: reference for %r is not a \"",
+        "detail": "ai4hpc_venv.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "LITERAL_EMBEDDEDFILE",
+        "kind": 5,
+        "importPath": "ai4hpc_venv.bin.dumppdf",
+        "description": "ai4hpc_venv.bin.dumppdf",
+        "peekOfCode": "LITERAL_EMBEDDEDFILE = LIT(\"EmbeddedFile\")\ndef extractembedded(fname: str, password: str, extractdir: str) -> None:\n    def extract1(objid: int, obj: Dict[str, Any]) -> None:\n        filename = os.path.basename(obj.get(\"UF\") or cast(bytes, obj.get(\"F\")).decode())\n        fileref = obj[\"EF\"].get(\"UF\") or obj[\"EF\"].get(\"F\")\n        fileobj = doc.getobj(fileref.objid)\n        if not isinstance(fileobj, PDFStream):\n            error_msg = (\n                \"unable to process PDF: reference for %r is not a \"\n                \"PDFStream\" % filename",
+        "detail": "ai4hpc_venv.bin.dumppdf",
+        "documentation": {}
+    },
+    {
+        "label": "float_or_disabled",
+        "kind": 2,
+        "importPath": "ai4hpc_venv.bin.pdf2txt",
+        "description": "ai4hpc_venv.bin.pdf2txt",
+        "peekOfCode": "def float_or_disabled(x: str) -> Optional[float]:\n    if x.lower().strip() == \"disabled\":\n        return None\n    try:\n        return float(x)\n    except ValueError:\n        raise argparse.ArgumentTypeError(\"invalid float value: {}\".format(x))\ndef extract_text(\n    files: Iterable[str] = [],\n    outfile: str = \"-\",",
+        "detail": "ai4hpc_venv.bin.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text",
+        "kind": 2,
+        "importPath": "ai4hpc_venv.bin.pdf2txt",
+        "description": "ai4hpc_venv.bin.pdf2txt",
+        "peekOfCode": "def extract_text(\n    files: Iterable[str] = [],\n    outfile: str = \"-\",\n    laparams: Optional[LAParams] = None,\n    output_type: str = \"text\",\n    codec: str = \"utf-8\",\n    strip_control: bool = False,\n    maxpages: int = 0,\n    page_numbers: Optional[Container[int]] = None,\n    password: str = \"\",",
+        "detail": "ai4hpc_venv.bin.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "create_parser",
+        "kind": 2,
+        "importPath": "ai4hpc_venv.bin.pdf2txt",
+        "description": "ai4hpc_venv.bin.pdf2txt",
+        "peekOfCode": "def create_parser() -> argparse.ArgumentParser:\n    parser = argparse.ArgumentParser(description=__doc__, add_help=True)\n    parser.add_argument(\n        \"files\",\n        type=str,\n        default=None,\n        nargs=\"+\",\n        help=\"One or more paths to PDF files.\",\n    )\n    parser.add_argument(",
+        "detail": "ai4hpc_venv.bin.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "parse_args",
+        "kind": 2,
+        "importPath": "ai4hpc_venv.bin.pdf2txt",
+        "description": "ai4hpc_venv.bin.pdf2txt",
+        "peekOfCode": "def parse_args(args: Optional[List[str]]) -> argparse.Namespace:\n    parsed_args = create_parser().parse_args(args=args)\n    # Propagate parsed layout parameters to LAParams object\n    if parsed_args.no_laparams:\n        parsed_args.laparams = None\n    else:\n        parsed_args.laparams = LAParams(\n            line_overlap=parsed_args.line_overlap,\n            char_margin=parsed_args.char_margin,\n            line_margin=parsed_args.line_margin,",
+        "detail": "ai4hpc_venv.bin.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ai4hpc_venv.bin.pdf2txt",
+        "description": "ai4hpc_venv.bin.pdf2txt",
+        "peekOfCode": "def main(args: Optional[List[str]] = None) -> int:\n    parsed_args = parse_args(args)\n    outfp = extract_text(**vars(parsed_args))\n    outfp.close()\n    return 0\nif __name__ == \"__main__\":\n    sys.exit(main())",
+        "detail": "ai4hpc_venv.bin.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "OUTPUT_TYPES",
+        "kind": 5,
+        "importPath": "ai4hpc_venv.bin.pdf2txt",
+        "description": "ai4hpc_venv.bin.pdf2txt",
+        "peekOfCode": "OUTPUT_TYPES = ((\".htm\", \"html\"), (\".html\", \"html\"), (\".xml\", \"xml\"), (\".tag\", \"tag\"))\ndef float_or_disabled(x: str) -> Optional[float]:\n    if x.lower().strip() == \"disabled\":\n        return None\n    try:\n        return float(x)\n    except ValueError:\n        raise argparse.ArgumentTypeError(\"invalid float value: {}\".format(x))\ndef extract_text(\n    files: Iterable[str] = [],",
+        "detail": "ai4hpc_venv.bin.pdf2txt",
+        "documentation": {}
+    },
+    {
+        "label": "TextChunker",
+        "kind": 6,
+        "importPath": "chunker",
+        "description": "chunker",
+        "peekOfCode": "class TextChunker:\n    \"\"\"\n    A class for chunking text into smaller segments for efficient processing and embedding.\n    \"\"\"\n    def __init__(self, chunk_size: int = 1000, chunk_overlap: int = 100, method: str = \"recursive\"):\n        \"\"\"\n        Initializes the chunker with a specified method and parameters.\n        :param chunk_size: int - The maximum token length of a chunk.\n        :param chunk_overlap: int - The number of overlapping tokens between consecutive chunks.\n        :param method: str - The chunking strategy to use (\"recursive\" or \"sentence\").",
+        "detail": "chunker",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_docs",
+        "kind": 2,
+        "importPath": "crawler",
+        "description": "crawler",
+        "peekOfCode": "def fetch_docs(url_list, output_dir=\"data/raw\"):\n    \"\"\"\n    Fetches HPC documentation from a list of URLs and saves them locally.\n    :param url_list: List[str] - A list of URLs pointing to HPC documentation (HTML, PDF, etc.).\n    :param output_dir: str - The directory where downloaded files will be stored.\n    :return: List[str] - A list of file paths to the locally saved documents.\n    \"\"\"\n    # Ensure the output directory exists\n    os.makedirs(output_dir, exist_ok=True)\n    saved_paths = []",
+        "detail": "crawler",
+        "documentation": {}
+    },
+    {
+        "label": "TextEmbedder",
+        "kind": 6,
+        "importPath": "embedder",
+        "description": "embedder",
+        "peekOfCode": "class TextEmbedder:\n    \"\"\"\n    A class for generating embeddings using OpenAI's API or a local model (SentenceTransformers).\n    \"\"\"\n    def __init__(self, model_name=\"text-embedding-ada-002\", use_openai=True):\n        \"\"\"\n        Initialize the embedder with a selected model.\n        :param model_name: str - Model name for embeddings. Default is OpenAI's ada-002.\n        :param use_openai: bool - Whether to use OpenAI API (True) or local SentenceTransformers (False).\n        \"\"\"",
+        "detail": "embedder",
+        "documentation": {}
+    },
+    {
+        "label": "urls",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "urls = [\n    \"https://wiki.u-gov.it/confluence/display/SCAIUS/Get+Started#GetStarted-1.Registration\",\n    \"https://wiki.u-gov.it/confluence/display/SCAIUS/Get+Started\",\n    \"https://wiki.u-gov.it/confluence/display/SCAIUS/LEONARDO+User+Guide\"\n]\n# file_paths = [\n#     \"example.pdf\",   # Example PDF file\n#     \"example.docx\",  # Example DOCX file\n#     \"example.txt\"    # Example TXT file\n# ]",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "embedder",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "embedder = TextEmbedder()\nstore = ChromaVectorStore()\nchunker = TextChunker()\n# === Process Web URLs ===\nfor url in urls:\n    print(f\"Processing URL: {url}\")\n    # Step 1: Crawl the web page and extract HTML\n    html_content = crawler.fetch_docs([url])[0]\n    # Step 2: Save the HTML to a temporary file for parsing\n    temp_html_file = \"temp.html\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "store",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "store = ChromaVectorStore()\nchunker = TextChunker()\n# === Process Web URLs ===\nfor url in urls:\n    print(f\"Processing URL: {url}\")\n    # Step 1: Crawl the web page and extract HTML\n    html_content = crawler.fetch_docs([url])[0]\n    # Step 2: Save the HTML to a temporary file for parsing\n    temp_html_file = \"temp.html\"\n    with open(temp_html_file, \"w\", encoding=\"utf-8\") as f:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "chunker",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "chunker = TextChunker()\n# === Process Web URLs ===\nfor url in urls:\n    print(f\"Processing URL: {url}\")\n    # Step 1: Crawl the web page and extract HTML\n    html_content = crawler.fetch_docs([url])[0]\n    # Step 2: Save the HTML to a temporary file for parsing\n    temp_html_file = \"temp.html\"\n    with open(temp_html_file, \"w\", encoding=\"utf-8\") as f:\n        f.write(html_content)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "parse_document",
+        "kind": 2,
+        "importPath": "parser",
+        "description": "parser",
+        "peekOfCode": "def parse_document(file_path):\n    \"\"\"\n    Parses the given document file (HTML, PDF, DOCX, or TXT) and extracts clean text.\n    :param file_path: str - Path to the document file.\n    :return: str - The extracted and cleaned text content.\n    \"\"\"\n    # Ensure the file exists before processing\n    if not os.path.exists(file_path):\n        raise FileNotFoundError(f\"File not found: {file_path}\")\n    file_extension = file_path.lower().split('.')[-1]",
+        "detail": "parser",
+        "documentation": {}
+    },
+    {
+        "label": "parse_html",
+        "kind": 2,
+        "importPath": "parser",
+        "description": "parser",
+        "peekOfCode": "def parse_html(file_path):\n    \"\"\"\n    Parses an HTML file and extracts readable text.\n    :param file_path: str - Path to the HTML file.\n    :return: str - Extracted clean text.\n    \"\"\"\n    with open(file_path, \"r\", encoding=\"utf-8\") as f:\n        soup = BeautifulSoup(f, \"html.parser\")\n    # Convert HTML to markdown-style text\n    text = html2text.html2text(soup.prettify())",
+        "detail": "parser",
+        "documentation": {}
+    },
+    {
+        "label": "parse_pdf",
+        "kind": 2,
+        "importPath": "parser",
+        "description": "parser",
+        "peekOfCode": "def parse_pdf(file_path):\n    \"\"\"\n    Parses a PDF file and extracts readable text.\n    :param file_path: str - Path to the PDF file.\n    :return: str - Extracted clean text.\n    \"\"\"\n    extracted_text = []\n    with pdfplumber.open(file_path) as pdf:\n        for page in pdf.pages:\n            text = page.extract_text()",
+        "detail": "parser",
+        "documentation": {}
+    },
+    {
+        "label": "parse_docx",
+        "kind": 2,
+        "importPath": "parser",
+        "description": "parser",
+        "peekOfCode": "def parse_docx(file_path):\n    \"\"\"\n    Parses a DOCX file and extracts readable text.\n    :param file_path: str - Path to the DOCX file.\n    :return: str - Extracted clean text.\n    \"\"\"\n    doc = docx.Document(file_path)\n    text = \"\\n\".join([para.text for para in doc.paragraphs])\n    return clean_text(text)\ndef parse_text(file_path):",
+        "detail": "parser",
+        "documentation": {}
+    },
+    {
+        "label": "parse_text",
+        "kind": 2,
+        "importPath": "parser",
+        "description": "parser",
+        "peekOfCode": "def parse_text(file_path):\n    \"\"\"\n    Parses a plain text file and extracts readable text.\n    :param file_path: str - Path to the TXT file.\n    :return: str - Extracted clean text.\n    \"\"\"\n    with open(file_path, \"r\", encoding=\"utf-8\") as f:\n        text = f.read()\n    return clean_text(text)\ndef clean_text(text):",
+        "detail": "parser",
+        "documentation": {}
+    },
+    {
+        "label": "clean_text",
+        "kind": 2,
+        "importPath": "parser",
+        "description": "parser",
+        "peekOfCode": "def clean_text(text):\n    \"\"\"\n    Cleans extracted text by removing extra whitespace, unwanted symbols, and excessive newlines.\n    :param text: str - Raw extracted text.\n    :return: str - Cleaned text.\n    \"\"\"\n    text = text.strip()\n    # Remove multiple newlines and excessive spaces\n    text = re.sub(r\"\\n\\s*\\n\", \"\\n\\n\", text)  # Collapse multiple newlines\n    text = re.sub(r\"[ ]{2,}\", \" \", text)     # Reduce multiple spaces to one",
+        "detail": "parser",
+        "documentation": {}
+    },
+    {
+        "label": "DocumentRetriever",
+        "kind": 6,
+        "importPath": "retrieval",
+        "description": "retrieval",
+        "peekOfCode": "class DocumentRetriever:\n    \"\"\"\n    Retrieves relevant documents from ChromaDB based on similarity search.\n    \"\"\"\n    def __init__(self, persist_directory=\"vectorstore/chroma_db\", openai_api_key=openai_api_key, top_k=3):\n        \"\"\"\n        Initializes ChromaDB retriever.\n        :param persist_directory: str - Directory where ChromaDB stores vectors.\n        :param openai_api_key: str - API key for OpenAI embeddings.\n        :param top_k: int - Number of relevant results to return.",
+        "detail": "retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "openai_api_key",
+        "kind": 5,
+        "importPath": "retrieval",
+        "description": "retrieval",
+        "peekOfCode": "openai_api_key = os.getenv(\"OPENAI_API_KEY\")\nclass DocumentRetriever:\n    \"\"\"\n    Retrieves relevant documents from ChromaDB based on similarity search.\n    \"\"\"\n    def __init__(self, persist_directory=\"vectorstore/chroma_db\", openai_api_key=openai_api_key, top_k=3):\n        \"\"\"\n        Initializes ChromaDB retriever.\n        :param persist_directory: str - Directory where ChromaDB stores vectors.\n        :param openai_api_key: str - API key for OpenAI embeddings.",
+        "detail": "retrieval",
+        "documentation": {}
+    },
+    {
+        "label": "ChromaVectorStore",
+        "kind": 6,
+        "importPath": "store",
+        "description": "store",
+        "peekOfCode": "class ChromaVectorStore:\n    \"\"\"\n    A class to manage vector storage using ChromaDB.\n    \"\"\"\n    def __init__(self, persist_directory=\"vectorstore/chroma_db\", openai_api_key=None):\n        \"\"\"\n        Initializes ChromaDB and OpenAI Embeddings.\n        :param persist_directory: str - Directory where the ChromaDB will store vectors.\n        :param openai_api_key: str - API key for OpenAI (if using OpenAI embeddings).\n        \"\"\"",
+        "detail": "store",
+        "documentation": {}
+    }
+]
