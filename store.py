@@ -1,12 +1,13 @@
 # store.py
 
 import os
+from typing import Dict, List
+
 import chromadb
-import numpy as np
-from typing import List, Dict
 from langchain.schema import Document
-from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
+from langchain_openai import OpenAIEmbeddings
+
 
 class ChromaVectorStore:
     """
@@ -28,7 +29,7 @@ class ChromaVectorStore:
 
         # Load OpenAI embeddings
         self.embedding_model = OpenAIEmbeddings(openai_api_key=openai_api_key)
-        
+
         # Initialize Chroma vector store
         self.chroma_store = Chroma(
             persist_directory=self.persist_directory,
@@ -41,7 +42,7 @@ class ChromaVectorStore:
 
         :param texts: List[str] - List of text chunks.
         :param metadata: List[Dict[str, str]] - Metadata for each chunk (e.g., source file).
-        
+
         :return: None
         """
         documents = [Document(page_content=text, metadata=meta) for text, meta in zip(texts, metadata)]
@@ -66,7 +67,7 @@ class ChromaVectorStore:
     def delete_all(self):
         """
         Deletes all stored embeddings in ChromaDB.
-        
+
         :return: None
         """
         self.chroma_store.delete_collection()

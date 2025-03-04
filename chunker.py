@@ -1,8 +1,8 @@
 # chunker.py
 
-import re
-import nltk
 from typing import List
+
+import nltk
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from nltk.tokenize import sent_tokenize
 
@@ -71,7 +71,7 @@ class TextChunker:
 
         for sentence in sentences:
             sentence_length = len(sentence)
-            
+
             # If adding this sentence exceeds chunk size, save current chunk and start new one
             if current_length + sentence_length > self.chunk_size:
                 chunks.append(" ".join(current_chunk))
@@ -80,7 +80,7 @@ class TextChunker:
 
             current_chunk.append(sentence)
             current_length += sentence_length
-        
+
         # Add any remaining chunk
         if current_chunk:
             chunks.append(" ".join(current_chunk))

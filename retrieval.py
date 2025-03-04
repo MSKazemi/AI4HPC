@@ -1,13 +1,11 @@
 # retrieval.py
 import os
-import numpy as np
+from typing import List
+
 from dotenv import load_dotenv
-import chromadb
-from typing import List, Dict
 from langchain.schema import Document
-from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
-from langchain.schema import Document
+from langchain_openai import OpenAIEmbeddings
 
 load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")

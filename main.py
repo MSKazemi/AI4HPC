@@ -1,10 +1,10 @@
 import os
-import requests
-import crawler  # Web crawling
 from parser import parse_document  # File/document parsing
+
+import crawler  # Web crawling
+from chunker import TextChunker  # Text chunking
 from embedder import TextEmbedder  # Text embedding
 from store import ChromaVectorStore  # ChromaDB storage
-from chunker import TextChunker  # Text chunking
 
 # Define URLs and file paths
 urls = [
@@ -42,7 +42,7 @@ for url in urls:
     text_chunks = chunker.chunk_text(parsed_text)
 
     # Step 5: Generate embeddings for the text chunks
-    embeddings = embedder.embed_texts(text_chunks)
+    # embeddings = embedder.embed_texts(text_chunks) # Not necessary for now
 
     # Step 6: Store in ChromaDB
     store.index_documents(

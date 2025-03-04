@@ -1,12 +1,12 @@
 # embedder.py
 
 import os
-import numpy as np
+from typing import List
+
 import openai
-from openai import OpenAI
-from typing import List, Union
-from sentence_transformers import SentenceTransformer
 from dotenv import load_dotenv
+from openai import OpenAI
+from sentence_transformers import SentenceTransformer
 
 load_dotenv()
 
@@ -18,7 +18,7 @@ class TextEmbedder:
     def __init__(self, model_name="text-embedding-ada-002", use_openai=True):
         """
         Initialize the embedder with a selected model.
-        
+
         :param model_name: str - Model name for embeddings. Default is OpenAI's ada-002.
         :param use_openai: bool - Whether to use OpenAI API (True) or local SentenceTransformers (False).
         """
@@ -37,9 +37,9 @@ class TextEmbedder:
     def embed_texts(self, texts: List[str]) -> List[List[float]]:
         """
         Generate embeddings for a list of text inputs.
-        
+
         :param texts: List[str] - List of text chunks to embed.
-        
+
         :return: List[List[float]] - List of embedding vectors.
         """
         if self.use_openai:
@@ -50,9 +50,9 @@ class TextEmbedder:
     def _embed_with_openai(self, texts: List[str]) -> List[List[float]]:
         """
         Uses OpenAI's API to generate embeddings.
-        
+
         :param texts: List[str] - List of text chunks.
-        
+
         :return: List[List[float]] - List of embedding vectors.
         """
         try:
@@ -67,9 +67,9 @@ class TextEmbedder:
     def _embed_with_local_model(self, texts: List[str]) -> List[List[float]]:
         """
         Uses a local SentenceTransformers model to generate embeddings.
-        
+
         :param texts: List[str] - List of text chunks.
-        
+
         :return: List[List[float]] - List of embedding vectors.
         """
         return self.local_model.encode(texts, convert_to_numpy=True).tolist()
@@ -83,7 +83,7 @@ class TextEmbedder:
 # if __name__ == "__main__":
 #     embedder = TextEmbedder(model_name="all-MiniLM-L6-v2", use_openai=False)  # Local model
 #     texts = ["HPC clusters enable parallel computing.", "Slurm is a job scheduler."]
-    
+
 #     embeddings = embedder.embed_texts(texts)
 #     print(embeddings[:2])
 # Recommended Local Models:
