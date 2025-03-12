@@ -20,7 +20,7 @@ urls = [
 # ]
 
 embedder = TextEmbedder()
-store = ChromaVectorStore()
+store = ChromaVectorStore() # MAYBE YOU NEED TO PASS SOME ARGS...
 chunker = TextChunker()
 
 # === Process Web URLs ===

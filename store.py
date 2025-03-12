@@ -1,12 +1,13 @@
 # store.py
 
 import os
-from typing import Dict, List
+from typing import Dict, List, Literal
 
 import chromadb
 from langchain.schema import Document
 from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
+from langchain_community.embeddings import HuggingFaceEmbeddings
 
 
 class ChromaVectorStore:
@@ -14,21 +15,37 @@ class ChromaVectorStore:
     A class to manage vector storage using ChromaDB.
     """
 
-    def __init__(self, persist_directory="vectorstore/chroma_db", openai_api_key=None):
+    def __init__(
+        self,
+        persist_directory="vectorstore/chroma_db",
+        embedding_model: Literal["openai", "sentence_transformers"] = "openai",
+        openai_api_key: str = None,
+        sentence_transformers_model_name: str = "all-mpnet-base-v2",
+    ):
         """
-        Initializes ChromaDB and OpenAI Embeddings.
+        Initializes ChromaDB and Embeddings.
 
         :param persist_directory: str - Directory where the ChromaDB will store vectors.
+        :param embedding_model: Literal["openai", "sentence_transformers"] - Which embedding model to use.
         :param openai_api_key: str - API key for OpenAI (if using OpenAI embeddings).
+        :param sentence_transformers_model_name: str - Model name for sentence transformers (if using sentence transformers).
         """
         self.persist_directory = persist_directory
+        self.embedding_model_type = embedding_model
         os.makedirs(self.persist_directory, exist_ok=True)
 
         # Initialize ChromaDB client
         self.client = chromadb.PersistentClient(path=self.persist_directory)
 
-        # Load OpenAI embeddings
-        self.embedding_model = OpenAIEmbeddings(openai_api_key=openai_api_key)
+        # Load embeddings
+        if self.embedding_model_type == "openai":
+            self.embedding_model = OpenAIEmbeddings(openai_api_key=openai_api_key)
+        elif self.embedding_model_type == "sentence_transformers":
+            self.embedding_model = HuggingFaceEmbeddings(model_name=sentence_transformers_model_name)
+        else:
+            raise ValueError(
+                f"Invalid embedding model: {embedding_model}. Must be 'openai' or 'sentence_transformers'."
+            )
 
         # Initialize Chroma vector store
         self.chroma_store = Chroma(
@@ -80,4 +97,3 @@ class ChromaVectorStore:
         :return: None
         """
         self.chroma_store.persist()
-
