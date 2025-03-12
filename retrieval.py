@@ -55,15 +55,27 @@ class DocumentRetriever:
         :return: str - Complete answer constructed from relevant documents.
         """
         documents = self.retrieve_documents(query)
+        print(documents)
         answer = "\n".join([doc.page_content for doc in documents])
         return answer
+from langchain_openai import ChatOpenAI
+from langchain.schema import SystemMessage, HumanMessage
+llm = ChatOpenAI()
+
+
 
 if __name__ == "__main__":
     # Initialize retriever with OpenAI API key
     retriever = DocumentRetriever()
 
-    query = "What is userDB?"
+    query = "What is infinband in HPC?"
     complete_answer = retriever.get_complete_answer(query)
-
+    messages = [
+    SystemMessage("You are AI assistant. Give me all answers in italian."),
+    HumanMessage(content= f"context:\n{complete_answer}\n\n Question: {query}\n\n"),]
+    res = llm.invoke(messages)
     print("🔍 Complete Answer:")
     print(complete_answer)
+    print("🤖 AI Response:",res)
+
+

@@ -10,7 +10,8 @@ from store import ChromaVectorStore  # ChromaDB storage
 urls = [
     "https://wiki.u-gov.it/confluence/display/SCAIUS/Get+Started#GetStarted-1.Registration",
     "https://wiki.u-gov.it/confluence/display/SCAIUS/Get+Started",
-    "https://wiki.u-gov.it/confluence/display/SCAIUS/LEONARDO+User+Guide"
+    "https://wiki.u-gov.it/confluence/display/SCAIUS/LEONARDO+User+Guide",
+    "https://it.wikipedia.org/wiki/High_performance_computing"
 ]
 
 # file_paths = [
@@ -29,7 +30,7 @@ for url in urls:
 
     # Step 1: Crawl the web page and extract HTML
     html_content = crawler.fetch_docs([url])[0]
-
+    print(html_content)
     # Step 2: Save the HTML to a temporary file for parsing
     temp_html_file = "temp.html"
     with open(temp_html_file, "w", encoding="utf-8") as f:
@@ -42,7 +43,7 @@ for url in urls:
     text_chunks = chunker.chunk_text(parsed_text)
 
     # Step 5: Generate embeddings for the text chunks
-    # embeddings = embedder.embed_texts(text_chunks) # Not necessary for now
+    #embeddings = embedder.embed_texts(text_chunks) # Not necessary for now
 
     # Step 6: Store in ChromaDB
     store.index_documents(
